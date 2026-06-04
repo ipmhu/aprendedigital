@@ -168,7 +168,7 @@ td{padding:10px;border-bottom:1px solid #E2E8F0;font-size:13px}tr:nth-child(even
 .stamp{border:3px solid #14B8A6;color:#14B8A6;display:inline-block;padding:12px 35px;font-size:22px;font-weight:bold;margin-top:25px;letter-spacing:2px}
 .signature{margin-top:50px;text-align:center}.signature-line{width:250px;border-top:1px solid #334155;margin:40px auto 5px}
 @media print{body{padding:30px}@page{size:A4;margin:15mm}}</style></head><body>
-<div class="header"><h1>Avanza Digital</h1><p>Aprende. Aplica. Avanza.</p><p>+1 (829) 324-2341 | aprendedigital@outlook.com</p></div>
+<div class="header"><h1>Avanza Digital</h1><p>Aprende. Aplica. Avanza.</p><p>+1 (829) 674-2341 | aprendedigital@outlook.com</p></div>
 ${content}
 <div class="footer"><p>Documento generado el ${new Date().toLocaleDateString("es-DO",{day:"2-digit",month:"long",year:"numeric"})}</p><p>© ${new Date().getFullYear()} Avanza Digital</p></div>
 <script>setTimeout(function(){window.print();},600);<\/script></body></html>`);
@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", () => {
         showToast("success", "Inicio de sesión exitoso", `Bienvenido/a, ${user.nombre}.`);
     });
 
-    document.getElementById("forgotPasswordLink")?.addEventListener("click", e => { e.preventDefault(); closeLoginModal(); showToast("info", "Recuperar contraseña", "Contacta a soporte: +1 (829) 324-2341"); });
+    document.getElementById("forgotPasswordLink")?.addEventListener("click", e => { e.preventDefault(); closeLoginModal(); showToast("info", "Recuperar contraseña", "Contacta a soporte: +1 (829) 674-2341"); });
 
     document.getElementById("certificateForm")?.addEventListener("submit", e => {
         e.preventDefault();
