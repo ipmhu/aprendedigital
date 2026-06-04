@@ -557,7 +557,7 @@ function generateBoletinForStudent(sid) {
 }
 
 window.downloadCertificate = function(code) { const cert = state.certificates.find(c => c.code === code); if (!cert) return; generatePDF("Certificado",`<h2 style="text-align:center;">Certificado</h2><h1 style="text-align:center;color:#14B8A6;">${esc(cert.studentName)}</h1><h2 style="text-align:center;">${esc(cert.program)}</h2><p style="text-align:center;"><strong>Código:</strong> ${code}</p><div style="text-align:center;"><div class="stamp">VÁLIDO</div></div>`); };
-window.reportAttendanceError = function() { window.open(`https://wa.me/18293242341?text=${encodeURIComponent("Hola, deseo reportar un error en mi asistencia. Solicito revisión. Gracias.")}`,"_blank"); };
+window.reportAttendanceError = function() { window.open(`https://wa.me/18296742341?text=${encodeURIComponent("Hola, deseo reportar un error en mi asistencia. Solicito revisión. Gracias.")}`,"_blank"); };
 
 // ==================== REFRESH ====================
 function refreshAllDashboardTables() {
