@@ -19,9 +19,9 @@ const DEFAULT_STUDENTS = [
 ];
 
 const DEFAULT_PROGRAMS = [
-    { codigo: "AD-101", nombre: "Inteligencia Artificial Aplicada", descripcion: "Aprende a implementar soluciones de IA en entornos reales. Desde fundamentos hasta aplicaciones prácticas con herramientas modernas de machine learning.", duracion_semanas: 12, precio: 1000.00 },
-    { codigo: "AD-201", nombre: "Digitación y Ofimática Profesional", descripcion: "Domina las herramientas ofimáticas esenciales y técnicas avanzadas de digitación para maximizar tu productividad en el entorno empresarial moderno.", duracion_semanas: 8, precio: 1000.00 },
-    { codigo: "AD-301", nombre: "Computación y Soporte Técnico", descripcion: "Fórmate como técnico especializado en soporte de sistemas informáticos. Aprende diagnóstico, mantenimiento preventivo y resolución de problemas técnicos.", duracion_semanas: 10, precio: 1000.00 }
+    { codigo: "AD-101", nombre: "Inteligencia Artificial Aplicada", descripcion: "Aprende a implementar soluciones de IA en entornos reales. Desde fundamentos hasta aplicaciones prácticas con herramientas modernas de machine learning.", duracion_semanas: 2, precio: 1000.00 },
+    { codigo: "AD-201", nombre: "Digitación y Ofimática Profesional", descripcion: "Domina las herramientas ofimáticas esenciales y técnicas avanzadas de digitación para maximizar tu productividad en el entorno empresarial moderno.", duracion_semanas: 4, precio: 1000.00 },
+    { codigo: "AD-301", nombre: "Computación y Soporte Técnico", descripcion: "Fórmate como técnico especializado en soporte de sistemas informáticos. Aprende diagnóstico, mantenimiento preventivo y resolución de problemas técnicos.", duracion_semanas: 3, precio: 1000.00 }
 ];
 
 const state = {
