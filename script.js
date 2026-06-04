@@ -94,7 +94,7 @@ async function loadUsersFromSupabase() {
                     }
                 });
             }
-            console.log("✅ Usuarios cargados desde Supabase:", state.users.length);
+            console.log("");
             return true;
         }
     } catch (e) {
